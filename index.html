@@ -1,0 +1,177 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap Template</title>
+    <!-- css links -->
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/media.css">
+  </head>
+  <body>
+
+    <section class="header">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-2 col-sm-3 col-12"><div class="box">1.1</div></div>          
+          <div class="col-md-7 col-sm-6 col-7"><div class="box">1.2</div></div>          
+          <div class="col-md-3 col-sm-3 col-5"><div class="box">1.3</div></div>          
+        </div>
+      </div>
+    </section>
+    <section class="hero">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-9">
+              <div class="row">
+                <div class="col-md-8 d-sm-block d-none">
+                  <div class="box">2.1</div></div>
+                <div class="col-md-4"><div class="box">2.2</div></div>
+                
+              </div>
+          </div>
+          <div class="col-md-3 d-md-block d-none">
+            <div class="box red">3</div></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="body">
+      
+      <div class="container">
+        <div class="row">
+          <div class="col-md-9">
+            <div class="row">
+              <div class="col-md-4 col-sm-9"><div class="box">4.1</div>
+            </div>
+            <div class="col-sm-3 d-md-none d-block"><div class="box red">3</div></div>
+              <div class="col-md-8 d-sm-block">
+                <div class="box">4.2</div></div>
+            </div>
+          </div>
+          <div class="col-md-3 d-md-block d-none"><div class="box five">5</div></div>
+        </div>
+      </div>
+
+    </section>
+
+    <section class="bar d-md-none d-sm-block d-none">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="box five">5</div></div>
+        </div>
+      </div>
+    </section>
+    <section class="footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <div class="box">6.1</div></div>
+        </div>
+      </div>
+
+    </section>
+
+    <section class="sine_in">
+      <div class="container">
+        <h1>form</h1>
+
+      <form class="row g-3 needs-validation" novalidate>
+          <!-- first name -->
+  <div class="col-md-6">
+    <label for="f-name" class="form-label">First name</label>
+    <input type="text" class="form-control f_name" id="f_name" name="f_name" placeholder="entar your first name" required>
+    <div class="valid-feedback">
+      Looks good!
+    </div>
+     <div class="invalid-feedback">
+        enter your first name
+    </div>
+     </div>
+              <!-- last name -->
+  <div class="col-md-6">
+    <label for="l_name" class="form-label">Last name</label>
+    <input type="text" class="form-control l_name" id="l_name" name="l_name" placeholder="entar your last name" required>
+    <div class="valid-feedback">
+      Looks good!
+    </div>
+     <div class="invalid-feedback">
+        enter your last name
+    </div>
+  </div>
+
+                  <!-- email addrass -->
+  <div class="col-md-12">
+    <label for="email" class="form-label">Email</label>
+    <input type="email" class="form-control email" id="email" name="email" placeholder="entar your email addrass" required>
+    <div class="valid-feedback">
+      Looks good!
+    </div>
+     <div class="invalid-feedback">
+        entar your email addrass
+    </div>
+  </div>
+
+  <div class="col-md-6">
+    <label for="city" class="form-label">City</label>
+    <input type="text" class="form-control city" id="city" name="city" placeholder="entar your city" required>
+    <div class="valid-feedback">
+      Looks good!
+    </div>
+    <div class="invalid-feedback">
+      Please provide a valid city.
+    </div>
+  </div>
+
+  <div class="col-md-3">
+    <label for="state" class="form-label">State</label>
+    <select class="form-select state" id="state" name="state" placeholder="entar your state" required>
+      <option selected disabled value="">Choose...</option>
+      <option>comilla</option>
+      <option>lalmai</option>
+      <option>lacksam</option>
+    </select>
+    <div class="valid-feedback">
+      Looks good!
+    </div>
+    <div class="invalid-feedback">
+      Please select a valid state.
+    </div>
+  </div>
+
+  <div class="col-md-3">
+    <label for="zip" class="form-label">Zip</label>
+    <input type="text" class="form-control zip" id="zip" name="zip" placeholder="add a zip file" required>
+    <div class="valid-feedback">
+      Looks good!
+    </div>
+    <div class="invalid-feedback">
+      Please provide a valid zip.
+    </div>
+  </div>
+
+  <div class="col-12">
+    <div class="form-check">
+      <input class="form-check-input" type="checkbox" value="" id="invalidCheck3" aria-describedby="invalidCheck3Feedback" required>
+      <label class="form-check-label" for="invalidCheck3">
+        Agree to terms and conditions
+      </label>
+      <div class="invalid-feedback">
+        You must agree before submitting.
+      </div>
+    </div>
+  </div>
+
+  <div class="col-12">
+    <button class="btn btn-primary" type="submit">Submit form</button>
+  </div>
+</form>
+      </div>
+    </section>
+
+    <script type="text/javascript" src="js/bootstrap.bundle.min.js"></script>
+    <script type="text/javascript" src="js/script.js"></script>
+  </body>
+</html>
